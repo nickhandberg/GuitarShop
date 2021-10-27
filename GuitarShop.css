@@ -1,0 +1,133 @@
+.productcards {
+    display:                flex;    
+    flex-flow:              nowrap;
+    justify-content:        center;
+    align-items:            center;
+    align-content:          center;
+    
+    
+}
+
+.header {
+    display:                flex;
+    flex-flow:              nowrap;
+    justify-content:        center;
+    background-color:       rgb(32, 32, 54);        /*dark blue*/
+    color:                  whitesmoke;
+    
+    flex:                   1 1 auto;
+}
+
+.footer {
+    display:                flex;
+    flex-flow:              nowrap;
+    justify-content:        center;
+    background-color:       rgb(32, 32, 54);        /*dark blue*/
+    color:                  lightblue;
+    flex:                   1 1 auto;
+}
+
+.product1 {
+    background-color:       white;
+    flex:                   1 1 25%;
+    border:                 1px solid black;
+}
+
+.product2 {
+    background-color:       white;
+    flex:                   1 1 25%;
+    border:                 1px solid black;
+}
+
+.product3 {
+    background-color:       white;
+    flex:                   1 1 25%;
+    border:                 1px solid black;
+}
+
+.product4 {
+    background-color:       white;
+    flex:                   1 1 25%;
+    border:                 1px solid black;
+}
+
+body {
+    background-color:       lightblue;
+    margin:                 0px 0px;
+    font-family:            'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fast {
+    color:                  lightblue;
+    font-weight:            700;
+    font-style:             italic;
+
+}
+
+.headermisc {
+
+    margin:                 30px 20px;
+}
+
+h2 {
+    text-align:             center;
+}
+
+h3 {
+
+    margin:                 1.5em 20em;
+}
+
+img {
+    width:                  130px;
+    height:                 400px;
+    display:                block;
+    margin-left:            auto;
+    margin-right:           auto;
+}
+img:hover {
+    transition:             transform .5s;
+    transform:              scale(1.25);
+  }
+
+.price {
+    color:                  black;
+    text-align:             center;
+    font-size:              1.5em;
+    font-weight:            600;
+}
+
+s {
+
+    color:                  red;
+    font-weight:            600;
+}
+
+.fakelinks {
+
+    text-align:             center;
+    margin:                 2em 10em;
+    font-weight:            600;
+    background-color:       rgb(32, 32, 54);        /*dark blue*/
+    border:                 1px solid black;
+    border-radius:          2em;
+}
+
+a:link {
+    color:                  whitesmoke;         
+    text-decoration:        none;
+}
+  
+a:visited {
+    color:                  whitesmoke;         
+}
+  
+
+a:hover {
+color:                      lightblue;
+}
+
+
+a:active {
+color:                      lightblue;
+}
